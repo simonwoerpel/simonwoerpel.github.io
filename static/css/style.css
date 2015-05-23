@@ -643,6 +643,11 @@ input[type="button"],
     left: 1.25em;
     line-height: 3em; }
     #header nav#leftnav a {
+      -moz-transition: color 0.2s ease-in-out;
+      -webkit-transition: color 0.2s ease-in-out;
+      -o-transition: color 0.2s ease-in-out;
+      -ms-transition: color 0.2s ease-in-out;
+      transition: color 0.2s ease-in-out;
       margin-left: 30px;
       color: white; }
       #header nav#leftnav a i {

@@ -1,0 +1,8 @@
+
+@font-face {
+  font-family: 'Andada-Italic';
+  src: url('Andada-Italic.eot?#iefix') format('embedded-opentype'),  url('Andada-Italic.otf')  format('opentype'),
+	     url('Andada-Italic.woff') format('woff'), url('Andada-Italic.ttf')  format('truetype'), url('Andada-Italic.svg#Andada-Italic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

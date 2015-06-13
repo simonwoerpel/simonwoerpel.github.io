@@ -17,6 +17,7 @@
         <link rel="stylesheet" href="/theme/css/style-xlarge.css" />
     </noscript>
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Merriweather:400,300,700" rel="stylesheet" type="text/css">
     <link href="/static/langdon-umlauts/styles.css" rel="stylesheet" type="text/css">
     <link href="/static/andada-webfont/regular/styles.css" rel="stylesheet" type="text/css">
     <link href="/static/andada-webfont/italic/styles.css" rel="stylesheet" type="text/css">
@@ -24,7 +25,6 @@
     <link href="/static/andada-webfont/bolditalic/styles.css" rel="stylesheet" type="text/css">
     <link href="/static/font-awesome/css/font-awesome.css" rel="stylesheet">
     <link href="http://medienrevolte.de/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Medienrevolte Full Atom Feed" />
-
 </head>
 <body id="oben">
 <header id="header" class="skel-layers-fixed">
@@ -36,27 +36,27 @@
     </nav>
     <nav id="nav">
         <a class="active"  href="../pages/experimente.html">Experimente</a>
-        <a href="../pages/tech.html">Tech</a>
+        <a href="../pages/ueber.html">Über</a>
+        <a href="../pages/werkzeugkiste.html">Werkzeugkiste</a>
     </nav>
 </header>
 
-
 <section class="container" id="content">
     <section class="row">
-        <section class="12u">
-    
+        <article class="12u">
+        
 
-    <h1>Experimente</h1>
+        <h1>Experimente</h1>
 <h2>Warten in Köln</h2>
 <p>Als die Stadt Köln die Wartezeiten ihrer Kundenzentren als Live-Daten zur Verfügung gestellt hat, ist dieses kleine Projekt schnell entstanden. Es liest die API-Schnittstelle aus und zeigt für jedes Kundenzentrum die aktuelle Wartezeit an sowie einen Tagesdurchschnitt und das Tagesmaximum, dynamisch aktualisiert.</p>
 <p>Die einzelnen Wartedauern werden seit November ununterbrochen vom System getrackt, sodass bald eine längerfristige Datenauswertung inklusive Vorhersagen möglich ist. Realisiert wurde das Projekt mit dem Python-Framework Django, dem Datenbank-System PostgreSQL, dem Messagebroker RabbitMQ (zusammen mit Celery zur automatischen API-Auslese) und dem css-Framework „Skeljs“.</p>
-<p><a href="http://www.warten-in-koeln.de">http://www.warten-in-koeln.de</a></p>
+<p><a href="http://www.warten-in-koeln.de">warten-in-koeln.de</a></p>
 <h2>Marode Brücken</h2>
 <p>Ein kleiner Weiterdreh eines Datenprojekts von ZEIT ONLINE (siehe Erläuterungen auf der Startseite). Es zeigt die maroden Brücken der Bahn aus der Satellitenansicht von oben und ermöglicht ein gezielteres Browsen aufgrund von Kategorien wie Bundesland, Streckenabschnitt oder Schadenskategorie, als es in der Ursprungsanwendung der Berliner Kollegen möglich war.</p>
 <p>Realisiert wurde dieses Projekt mit Django, PostgreSQL, der Open-Source-Karten von Openstreetmap, der Javascript-Bibliothek leaflet, GoogleMaps sowie dem css-Framework Bootstrap.</p>
-<p><a href="http://bruecken.medienrevolte.de">http://bruecken.medienrevolte.de</a></p>
+<p><a href="http://bruecken.medienrevolte.de">bruecken.medienrevolte.de</a></p>
 
-        </section>
+        </article>
     </section>
 </section>
 

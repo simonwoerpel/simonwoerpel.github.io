@@ -1,0 +1,11 @@
+<header role="banner">
+  <nav role="navigation">
+    [<a href="/"> / </a>]
+    {% for page_item in site.pages %}
+    {% if page_item.title and page_item.show_menu %}
+    [{% if page.title != page_item.title %}<a href="{{ page_item.url | prepend: full_base_url }}">{% endif %}{{ page_item.menu_title | default: page_item.title | escape }}{% if page.title != page_item.title %}</a>{% endif %}]
+    {% endif %}
+    {% endfor %}
+  </nav>
+  <hr />
+</header>

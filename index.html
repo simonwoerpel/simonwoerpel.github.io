@@ -1,97 +1,89 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
   <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>simon wörpel</title>
+    <style>
+      @font-face {
+        font-family: 'Quicksand';
+        font-style: normal;
+        font-weight: 400;
+        src: url('/public/fonts/quicksand-v30-latin-regular.eot'); /* IE9 Compat Modes */
+        src: local(''),
+             url('/public/fonts/quicksand-v30-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+             url('/public/fonts/quicksand-v30-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+             url('/public/fonts/quicksand-v30-latin-regular.woff') format('woff'), /* Modern Browsers */
+             url('/public/fonts/quicksand-v30-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+             url('/public/fonts/quicksand-v30-latin-regular.svg#Quicksand') format('svg'); /* Legacy iOS */
+      }
 
-  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-  <meta name="description" content="Code. Daten. Journalismus. Blog von Simon Wörpel, Journalist und Entwickler aus Köln / Essen">
-  <meta name="keywords" content="Simon, Wörpel, Correctiv, Correct!v, Journalist, Django, Python, Datenjournalist, ddj, correctiv.org, jornalism, data, code, ddj tutorials">
-  <meta name="author" content="Simon Wörpel">
-
-  <title>simon wörpel</title>
-  <meta name="description" content="homepage and blog from simon wörpel, data journalist and newsroom hacker at correctiv.org">
-
-  
-  
-  <link rel="stylesheet" href="/css/main/index.css">
-  <link rel="canonical" href="/">
-  <link rel="alternate" type="application/rss+xml" title="simon wörpel" href="/feed.xml">
-
-</head>
-
-
-  <body id="top">
-
-    <header role="banner">
-  <nav role="navigation">
-    [<a href="/"> / </a>]
-    
-    
-    [<a href="/bio/">bio</a>]
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    [<a href="/projects/">projects</a>]
-    
-    
-  </nav>
-  <hr />
-</header>
-
-
-    <main class="page-content" aria-label="Content" role="main">
-      <h1 id="hi-im-simon">Hi, I’m Simon.</h1>
-
-<h3 id="investigative-data-journalist">investigative data journalist</h3>
-
-<p>from 2015 to 08/2019 i was doing <strong><em>computer assisted investigative reporting
-magic</em></strong> at <a href="https://correctiv.org">CORRECTIV</a>, a journalism non-profit based
-in Germany.</p>
-
-<p>now i am looking for new challenges.</p>
-
-<p>in case you are interested, <a href="https://github.com/simonwoerpel/CV">checkout my resume</a>.</p>
-
-<p><a href="/projects/">some of my work / projects</a></p>
-
-<h2 class="schnickschnack">that's meeeeee ---&gt;</h2>
-<p><img src="/img/avatar.gif" alt="me in a weird gif montage" /></p>
-
+      /* quicksand-700 - latin */
+      @font-face {
+        font-family: 'Quicksand';
+        font-style: normal;
+        font-weight: 700;
+        src: url('/public/fonts/quicksand-v30-latin-700.eot'); /* IE9 Compat Modes */
+        src: local(''),
+             url('/public/fonts/quicksand-v30-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+             url('/public/fonts/quicksand-v30-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+             url('/public/fonts/quicksand-v30-latin-700.woff') format('woff'), /* Modern Browsers */
+             url('/public/fonts/quicksand-v30-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+             url('/public/fonts/quicksand-v30-latin-700.svg#Quicksand') format('svg'); /* Legacy iOS */
+      }
+      body {
+        background-color: #5E1325;
+      }
+      main, footer {
+        font-family: "Quicksand", sans;
+        font-weight: 400;
+        text-align: center;
+        max-width: 400px;
+        padding-top: 20%;
+        margin: 0 auto;
+        color: #F8E9ED;
+      }
+      footer {
+        padding-top: 100px;
+      }
+      main img {
+        display: block;
+        width: 100px;
+        height: 100px;
+        margin: 0 auto;
+      }
+      main a {
+        color: #F8E9ED;
+      }
+      main h3 {
+        font-weight: 700;
+      }
+      footer, footer a {
+        color: #8C6E75;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h3>simon wörpel</h3>
+      <p>investigative data journalist and leak librarian</p>
+      <p>
+        <a href="https://farmsubsidy.org">farmsubsidy.org</a> ·
+        <a href="https://opensecuritydata.eu">opensecuritydata.eu</a><br />
+        <a href="https://www.investigativejournalismforeu.net/projects/follow-the-grant/">follow the grant</a> ·
+        <a href="https://github.com/okfde/dokukratie/">dokukratie</a>
+      </p>
+      <p><a href="https://github.com/simonwoerpel/about">about</a> ·
+      <a href="https://github.com/simonwoerpel">github</a></p>
     </main>
-
     <footer>
-  <hr />
-  <p>
-    <small>
-      <strong>Mail/XMPP:</strong> <a href="mailto:simon.woerpel@medienrevolte.de">simon.woerpel@medienrevolte.de</a> |
-      <strong>github:</strong> <a href="https://github.com/simonwoerpel">github.com/simonwoerpel</a> |
-      <strong>Twitter:</strong> <a href="https://twitter.com/simonwoerpel">@simonwoerpel</a>
-      <br>
-      <strong>pgp:</strong> <code>4AAE B223 E3D0 9119 9ABE FEE8 E639 20A4 2EFF A5E4</code> |
-      <strong>key:</strong> <a href="/2EFFA5E4.asc">2EFFA5E4</a> |
-      <a href="https://keybase.io/simonwoerpel">i'm on keybase.io</a>
-      <br>
-      made with ♥ and <a href="https://jekyllrb.com">jekyll</a>. | "<a href="http://motherfuckingwebsite.com/">your css is broken</a>" | <a href="/impressum/">Impressum</a>
-    </small>
-  </p>
-  <p>
-    <small>
-      <a href="#top">^</a>
-    </small>
-  </p>
-</footer>
-
-
-
+      <p><a href="mailto:simon.woerpel@pm.me">simon.woerpel@pm.me</a> ·
+        <a href="https://keybase.io/simonwoerpel/pgp_keys.asc">pgp</a> ·
+        <a href="https://keybase.io/simonwoerpel">verified identities</a>
+      </p>
+      <p>
+        4AAEB223E3D091199ABEFEE8E63920A42EFFA5E4
+      </p>
+    </footer>
   </body>
-
 </html>
